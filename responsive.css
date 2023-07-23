@@ -1,0 +1,153 @@
+/* for tablet */
+@media screen and (max-width: 770px){
+    header .navigetion{
+        display: block;
+    }
+
+    .navigetion .brand-logo{
+        justify-content: center;
+    }
+    .main-menu{
+        display: block;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .main-menu ul{
+        display: block;
+    }
+
+    .main-menu ul li{
+        padding-bottom: 1rem;
+    }
+
+    /* bannarStart */
+    .bannarSection{
+        display: none;
+    }
+
+    .bannarSection2{
+        display: block;
+    }
+
+    .bannarStart{
+        padding: 3rem;
+        text-align: left;
+    }
+    .bannarStart .tlt h1, .aboutEnd .tlt h2, .highlight{
+        font-size: 30px;
+    }
+
+    .bannarStart .tlt h2{
+        font-size: 25px;
+    }
+
+    /*  */
+    .aboutSection {
+        background: #fff;
+        display: block;
+    }
+
+    .aboutEnd .tlt article {
+        color: #534C64;
+        text-align: center;
+    }
+    .aboutEnd {
+        text-align: center;
+    }
+
+    /*  */
+    .playGameing, .featureGameing{
+    }
+    .playGameing .txtBlock, .playGameing .imageBlock {
+        width: 100%;
+        text-align: center;
+    }
+
+    .playGameing .txtBlock .tlt {
+        width: 100%;
+        padding: 10rem 0;
+        color: #534C64;
+        text-align: center;
+    }
+
+    .playGameing .txtBlock h2{
+        text-align: center;
+    }
+
+    /*  */
+
+    .careers{display: block;}
+
+    .careers .leftSide , .careers .rightSide {
+        width: 100%;
+    }
+
+    /*  */
+    
+
+    
+    
+}
+
+/* for mobile device */
+@media screen and (max-width: 570px){
+   
+
+    /* header */
+
+    .bannarEnd, .bannarStart{
+        width: 80%;
+        padding: 1rem;
+    }
+
+    .bannarEnd img {
+        height: 390px;
+    }
+
+    /* main */
+    main>div{
+        padding: 1rem;
+    }
+
+    .aboutStart img{
+        width: 100%;
+    }
+    /*  */
+    .frontSide img {
+        width: 70%;
+    }
+    /*  */
+    .playGameing {
+        padding: 0 2rem;
+        position: relative;
+        height: 100%;
+    }
+
+    .playGameing .imageBlock {
+        padding: 0 0rem;
+        position: relative;
+        text-align: right;
+    }
+    .careers{
+        padding: 1rem;
+    }
+
+    .cetagotise button{
+        width: 100%;
+    }
+    /* ourConditions */
+    .brand-logo .brand-name h1 {
+        font-size: 22px;
+    }
+    .footerMenu ul{
+        padding: 0;
+    }
+    .footerMenu ul li {
+        padding: .6rem 1rem;
+    }
+    .ourConditions i{
+        display: inline-block;
+    }
+    
+}

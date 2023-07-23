@@ -1,0 +1,576 @@
+*{
+    margin: 0 auto;
+    /* padding: 0 auto; */
+    outline: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* wrepper area */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+/* header area */
+header{
+    background: #FFF;
+   
+}
+
+button{
+    cursor: pointer;
+}
+
+header .navigetion{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.navigetion .brand-logo{
+    display: flex;
+}
+
+.brand-logo img{
+    width: 66px;
+    padding: 0 1rem;
+}
+
+.brand-logo .brand-name h1{
+    font-size: 28px;
+}
+
+/* end of brand-logo */
+
+/* main-menu */
+.main-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-menu .menu{
+    padding: 0 2rem;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 0 1rem;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+/*  */
+
+/* social-media */
+.navigetion .social-media{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: .8rem;
+    width: 190px;
+}
+
+.social-media>i{
+    padding: 0 .5rem;
+}
+.social-media .txt{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.fa-tiktok{
+    color: #000;
+}
+
+/*  */
+
+/* bannar section */
+
+/* bannarStart */
+.bannarSection{
+    display: flex;
+    justify-content: space-around;
+}
+.bannarStart{
+    background-image: url(./assects/images/Group-14.png);
+    width: 50%;
+    height: 100%;
+    background-size: 85% 100%;
+    background-repeat: no-repeat;
+    padding: 6rem;
+}
+
+.bannarStart .tlt{
+    text-transform: uppercase;
+}
+
+.bannarStart .tlt h1,
+.aboutEnd .tlt h2,
+.highlight
+{
+    content: "G.O.A.T.";
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 5px 0;
+    font-family: "Work Sans";
+    font-size: 50px;
+    font-style: bold;
+
+    font-weight: bolder;
+}
+
+.bannarStart .txtContent span{
+    padding: .4rem 0;
+    display: block;
+}
+
+.bannarStart .txtContent i{
+    padding-right: 1rem;
+}
+
+/* bannarBtn */
+.bannarBtn{
+    padding: 1rem 0;
+}
+.bannarBtn button{
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 48px;
+    margin-right: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.bannarBtn button:first-child{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.bannarBtn button:hover{
+    transition: 1s;
+}
+.bannarBtn button:first-child:hover{
+    border: 1px solid #F948B2;
+    background: transparent;
+    color: #F948B2;
+}
+.bannarBtn button:last-child{
+    background: #4EC5F7;
+
+}
+
+.bannarBtn button:last-child:hover{
+    background: transparent;
+    border: 1px solid #4EC5F7;
+    color: #4EC5F7;
+
+}
+/* bannarEnd */
+.bannarEnd{
+    width: 50%;
+    padding: 2rem 6rem;
+}
+
+.bannarEnd img{
+    width: 100%;
+    height: 390px;
+}
+
+.bannarSection2{
+    /* if geterthen 770px display none */
+    display: none;
+}
+
+/* main content */
+main>div{
+    padding: 2rem 5rem;
+}
+
+/* aboutSection */
+.aboutSection{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: space-around;
+}
+.aboutStart{
+    padding: 0 5rem;
+}
+.aboutStart img{
+    width: 450px;
+}
+
+/* aboutEnd */
+
+.aboutEnd{
+    text-align: end;
+}
+
+.aboutEnd .tlt h2{
+    font-size: 40px;
+    padding: 1rem 0;
+}
+
+.aboutEnd .tlt article{
+    color: #534C64;
+    text-align: right;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.aboutEnd .btn button{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #fff;
+    border: none;
+    padding: .8rem 2rem;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.aboutEnd .buttomTxt span{
+    color: #534C64;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.aboutEnd .buttomTxt h4{
+    color: #534C64;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+/*  */
+
+/* featureGameing */
+
+.secTlt{
+    text-align: center;
+}
+
+.secTlt .tlt{
+    color: #0B0223;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 1rem 0;
+}
+
+.secTlt .subTlt{
+    color: #534C64;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.featureGameing .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.featureGameing .card{
+    width: 230px;
+}
+.featureGameing .card .imageBlock{
+    height: 400px;
+    position: relative;
+    display: inline;
+    border-radius: 16px;
+    background-color: aquamarine;
+}
+
+.featureGameing .card .imageBlock img{
+    height: 100%;
+    width: 230px;
+}
+
+.featureGameing .card .imageBlock .hover{
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 80%);    
+    height: 99%;
+    width: 230px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    color: #fff;
+    border: 2px solid #FF42A5;
+    cursor: pointer;
+}
+
+.hover .inner{
+    text-align: center;
+    margin: 100px 0;
+    font-size: 1.5rem;
+}
+.hover .inner .txt{
+    font-size: 1rem;
+    color: #FF42A5;
+    padding: 1rem 0;
+}
+
+.featureGameing .card .imageBlock:hover .hover{
+    display: inline;
+    transition: 5ms;
+}
+
+
+.featureGameing .txtBlock{
+    padding: 1rem 0;
+    width: 80%;
+    text-align: left;
+    margin: 0;
+    font-size: 14px;
+    color: #534C64;
+    font-weight: 500;
+}
+
+/*  */
+
+/* playGameing */
+.playGameing{
+    padding: 0 5rem;
+    position: relative;
+    height: 100%;
+}
+.playGameing .innerSection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.playGameing .txtBlock, .playGameing .imageBlock{
+    width: 45%;
+    text-align: right;
+    
+}
+/* txtBlock */
+.playGameing .txtBlock .tlt{
+    width: 55%;
+    padding: 10rem 0;
+    color: #534C64;
+    text-align: left;
+
+}
+
+.playGameing .txtBlock h2{
+    font-size: 2rem;
+    text-align: left;
+    padding: 1rem 0;
+}
+
+/*  */
+.playGameing .imageBlock{
+    padding: 0 3rem;
+    position: relative;
+    text-align: right;
+}
+.playGameing .imageBlock .backSide img{
+    width: 80%;
+    text-align: left;
+}
+
+.frontSide{
+    position: absolute;
+    bottom: -80px;
+    left: -80px;
+}
+
+.frontSide img{
+    width: 70%;
+}
+
+/* careers */
+
+.careers{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    margin-top: 10rem;
+    display: flex;
+}
+
+.careers .leftSide{
+    width: 50%;
+}
+
+.careers .tlt{
+    padding: 2rem 0;
+}
+.careers .tlt h2{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 2rem 0;
+
+}
+
+.careers .tlt span{
+    color: rgb(235, 234, 234);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.careers .txtContent{
+    display: flex;
+    justify-content: space-around;
+}
+.careers .txtContent .lft{
+    margin-left: 0;
+}
+.careers .txtContent .rgt{
+    text-align: right;
+}
+.careers .Btn {
+    padding: 2rem 0;
+}
+.careers .Btn button{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    border: none;
+    /* for text */
+    font-size: 12px;
+    color: #FF42A5;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+/* after hover */
+.careers .Btn button:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: 1s;
+}
+
+/*  */
+.careers .rightSide{
+    width: 50%;
+}
+
+.careers .rightSide img{
+    width: 100%;
+}
+/*  */
+.cetagotise{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.05) 0%, rgba(255, 66, 165, 0.05) 100%);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ .cetagotise button{
+    border: none;
+    border-radius: 48px;
+    background-color: #FFF;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: flex;
+    padding: .4rem 1rem;
+    margin: 1rem auto;
+}
+
+.cetagotise button img{
+    width: 40px;
+    height: 40px;
+}
+.cetagotise button span{
+    line-height: 40px;
+    padding: 0 1rem;
+}
+/* after hover */
+.cetagotise button:hover{
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+    transition: .3s;
+    background-color: #fff;
+}
+
+
+/* footer */
+
+footer{
+    background: #0B0223;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer>div{
+    padding: 1.2rem 0;
+}
+
+footer .brand-logo{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+.brand-name, .icon{
+    margin: 0;
+}
+
+
+/* footerMenu */
+
+.footerMenu{
+    text-align: center;
+}
+
+.footerMenu ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footerMenu ul li{
+    margin: 0;
+    text-align: center;
+}
+.footerMenu ul li a{
+    color: #FFF;
+    font-size: 13px;
+}
+.socialLink .fa-brands{
+    font-size: 1.5rem;
+    color: #FFF;
+    padding: 0 .5rem;
+}
+
+/* ourConditions */
+
+.ourConditions i a, .copyRight i a{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 11px;
+    padding: 0 1rem;
+
+}
